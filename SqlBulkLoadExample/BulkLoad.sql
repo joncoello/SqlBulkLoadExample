@@ -1,0 +1,9 @@
+﻿BULK
+INSERT dbo.MOCK_DATA
+FROM 'C:\temp\file.txt'
+WITH
+(
+FIELDTERMINATOR = ',',
+ROWTERMINATOR = '\n'
+)
+GO
